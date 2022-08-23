@@ -1,0 +1,27 @@
+GET http://localhost:3000/api/todos
+
+### 
+GET http://localhost:3000/api/todos/
+
+###
+POST http://localhost:3000/api/todos
+Content-Type: 'application/json'
+
+{
+    "title": "learn node js",
+    "description": "create restFul api with vannila js",
+    "completed": true
+}
+
+###
+PUT http://localhost:3000/api/todos/
+Content-Type: 'application/json
+
+{
+    "title": "learn node js",
+    "description": "create restFul api todolist http",
+    "completed": false
+}
+
+###
+DELETE http://localhost:3000/api/todos/
