@@ -26,7 +26,7 @@ PUT      /api/todos/:id     [mengubah data berdasarkan id]
 DELETE   /api/todos/:id     [menghapus data berdasarkan id]
 ```
 
-## respon success
+## respons success
 
 ```
 {
